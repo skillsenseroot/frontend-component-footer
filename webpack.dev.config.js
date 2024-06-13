@@ -9,7 +9,7 @@ module.exports = createConfig('webpack-dev', {
   },
   resolve: {
     alias: {
-      '@skillsenseroot/frontend-component-footer': path.resolve(__dirname, 'src'),
+      '@edx/frontend-component-footer': path.resolve(__dirname, 'src'),
     },
   },
 });
